@@ -19,7 +19,7 @@ import net.minecraft.util.Hand;
 public class DisplacementTomeScreenHandler extends ScreenHandler {
 
     private ItemStack book;
-    private PlayerEntity player;
+    private ServerPlayerEntity player;
 
     public DisplacementTomeScreenHandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, ItemStack.EMPTY);
